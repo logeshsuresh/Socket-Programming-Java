@@ -10,21 +10,11 @@ This repository contains Java code for a simple client-server application using 
 
 The `Server` class listens for incoming connections on a specified port (default: 8080). When a client connects, the server reads the client's message, echoes it back, and sends it back to the client. It runs indefinitely, accepting connections from multiple clients sequentially.
 
-### To run the server:
-```
-`java Server`
-```
-
 ## Client
 
 ------
 
 The `Client` class connects to the server running on the localhost (127.0.0.1) and port 8080. It sends a message to the server and prints the response received from the server.
-
-To run the client:
-```
-`java Client`
-```
 
 ## What is a Socket?
 
